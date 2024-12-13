@@ -36,6 +36,22 @@ Die Plattform fördert kosteneffiziente DIY-Lösungen und vermeidet Abhängigkei
 
 Der OBP-Plotter V4 ist eine nachhaltige und zukunftssichere Navigationsplattform, die durch ihre Offenheit und universelle Erweiterbarkeit punktet. Sie unterstützt individuelle Anpassungen, ermöglicht die Einbindung älterer Systeme und bleibt dank offener Standards und umfassender Dokumentation dauerhaft updatefähig. Entwickelt für maritime Anforderungen, kombiniert sie Robustheit und Flexibilität und hat eine aktive Community von DIY-Enthusiasten.
 
+**Text 5**
+
+OBP-Plotter V4: Von Seglern für Segler
+
+Das Herzstück einer modernen Navigation an Bord ist ein Plotter. Um dieses Herzstück offen und nachhaltig zu gestalten, haben sich die Maker des Open Boat Projects – unterstützt von einer lebendigen Online-Seglercommunity – daran gemacht, diese Idee umzusetzen.
+
+Mit dem OBP-Plotter V4 ist eine offene Navigationsplattform entstanden, die eine flexible und anpassbare Lösung für Wassersportler bietet. Anders als kommerzielle Systeme können Anwender des OBP-Plotter-Systems selbst entscheiden, welches Betriebssystem und welche Navi-App sie benutzen. Ausgeliefert wird der OBP-Plotter V4 startklar auf Basis von Android15. 
+
+Ob neues Android-Versionen, andere Betriebssysteme wie Raspbian, ob Open Source-Navigations-Apps wie AvNav oder kommerzielle Software wie Orca: Der Anwender entscheidet selbst, was auf seinem Gerät läuft.
+
+Die Hardware ist ebenso flexibel: Sie können den Plotter wie ein Tablet mobil benutzen, denn er kann mit einem AkkuPack ausgerüstet werden. Ebenso kann er fest eingebaut werden. Immer ist er regensicher, das Display ist sonnenlichttauglich und bei Regen und mit Handschuhen bedienbar.
+
+Das Projekt fördert zudem die Prinzipien von Open Hardware, Open Source und Open Data, indem es umfassende Dokumentationen und Ressourcen wie CAD-Unterlagen und Quellcodes bereitstellt.
+
+
+
 Pressebilder
 ------------
 
