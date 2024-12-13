@@ -12,9 +12,9 @@ Letzte Aktualisierung |today|
 .. image:: /pics/OBP_Plotter_Direct_View_t.png
              :scale: 50%
 
-Der OBP-Plotter V4 wurde von Open Boat Projects entwickelt, um eine offene und wandelbare Navigationsplattform bereitzustellen. Unter der Leitung von Chefentwickler Christian arbeitet ein Team von Unterstützern an diesem Projekt. Im Gegensatz zu kommerziellen Navigationssystemen, bei denen die Funktionen fest vom Hersteller vorgegeben sind und sich später nicht ändern lassen, bietet der OBP-Plotter eine flexible Alternative. Kommerzielle Systeme haben oft eine begrenzte Lebensdauer: Nach wenigen Jahren werden sie nicht mehr unterstützt, wodurch die Nutzung eingeschränkt und unpraktisch wird, insbesondere wenn keine aktuellen Karten mehr verfügbar sind. Dies zwingt viele Nutzer dazu, ein neues System zu kaufen, obwohl das alte Gerät technisch noch einwandfrei funktionieren würde.
+Der OBP-Plotter V4 wurde von Open Boat Projects entwickelt, um eine offene und wandelbare Navigationsplattform bereitzustellen. Unter der Leitung von Chefentwickler Christian arbeitet ein Team von Unterstützern an diesem Projekt. Im Gegensatz zu kommerziellen Navigationssystemen, bei denen die Funktionen in engen Grenzen vom Hersteller festgelegt sind, bietet der OBP-Plotter eine flexible und zukunftfähige Alternative. Kommerzielle Systeme haben in der Regel eine begrenzte Lebensdauer: Nach wenigen Jahren werden Hard- und Software nicht mehr unterstützt, wodurch die Nutzung eingeschränkt und irgendwann unmöglich wird. Das ist besonders ärgerlich, wenn für ein älteres, aber nicht mehr updatefähiges System keine aktuellen Karten mehr verfügbar sind. Dies zwingt viele Nutzer dazu, ein neues System zu kaufen, obwohl das alte Gerät technisch noch einwandfrei funktionieren würde.
 
-Im DIY-Bereich gibt es oft individuelle Lösungen, die jedoch nicht immer optimal für die Herausforderungen des Segelalltags angepasst sind. Dies liegt oft an technischen Einschränkungen oder mangelnder Erfahrung in der Umsetzung. Open Boat Projects hat es sich daher zum Ziel gesetzt, eine robuste Navigations-Hardware zu entwickeln, die den Anforderungen in der maritimen Umgebung gerecht wird und gleichzeitig als Grundlage für eigene Projekte dient.
+Im DIY-Bereich gibt es oft sehr individuelle Lösungen, die jedoch nicht immer optimal für die Herausforderungen des Segelalltags angepasst sind. Dies liegt häufig an technischen Einschränkungen oder mangelnder Erfahrung in der Umsetzung. Open Boat Projects hat es sich daher zum Ziel gesetzt, eine robuste Navigations-Hardware zu entwickeln, die den Anforderungen in der maritimen Umgebung gerecht wird und gleichzeitig als Grundlage für eigene Projekte dient.
 
 Die Zielgruppe des OBP-Plotters sind Menschen, die sich ein individuelles System auf Basis einer stabilen und gut funktionierenden Hardware schaffen möchten. Der Plotter eignet sich auch für diejenigen, die ältere Systeme integrieren oder eine sofort einsatzbereite Lösung suchen, die sich leicht erweitern lässt.
 
@@ -23,7 +23,7 @@ Die Zielgruppe des OBP-Plotters sind Menschen, die sich ein individuelles System
 Die Hardware ist speziell für den anspruchsvollen Einsatz konzipiert und bietet:
 
 	* Ein wetterfestes, wasserdichtes Gehäuse
-	* Regenfestes, handschuhtaugliches Touch-Display (10 Zoll, 1000 Nits)
+	* Touch-Display (10 Zoll, 1000 Nits), auch bei Regen und mit Handschuhen bedienbar
 	* Sensortasten für einfache Bedienung
 	* Leistungsstarkes Raspberry Pi Compute Module CM5:
 		* 4 GB RAM
@@ -36,7 +36,7 @@ Die Hardware ist speziell für den anspruchsvollen Einsatz konzipiert und bietet
 
 **Offene Plattform und Community**
 
-Ein zentraler Aspekt des OBP-Plotters ist seine Offenheit. Open Boat Projects arbeitet eng mit der Community insbesondere im Segeln-Forum, zusammen. Diese Zusammenarbeit hilft, Ideen für eine ideale offene Hardware zu entwickeln und den Entwicklungsprozess zu optimieren. Die Grundprinzipien des Projekts sind Open Hardware, Open Source und Open Data. So kann jeder Interessierte nachvollziehen, wie das System funktioniert, um es an eigene Bedürfnisse anpassen und ältere Systeme einbinden zu können.
+Ein zentraler Aspekt des OBP-Plotters ist seine technologische Offenheit. Open Boat Projects arbeitet eng mit der Community insbesondere im Segeln-Forum, zusammen. Diese Zusammenarbeit hilft, Ideen für eine ideale offene Hardware zu entwickeln und den Entwicklungsprozess zu optimieren. Die Grundprinzipien des Projekts sind Open Hardware, Open Source und Open Data. So kann jeder Interessierte nachvollziehen, wie das System funktioniert, um es an eigene Bedürfnisse anpassen und ältere Systeme einbinden zu können.
 
 Wir stellen folgende Ressourcen zur Verfügung:
 
