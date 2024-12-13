@@ -15,8 +15,8 @@ Funktionen
 * Vorinstallierte Karten
 * Vorinstallierte Apps für Navigation und Unterhaltung
 * 10-Zoll Touch-Display (tageslichttauglich)
-* Umgebungslichtangepasste Displayhelligkeit
-* 3 Sensor-Tasten (u.a. geeignet für Android Buttons)
+* Displayhelligkeit an Umgebungslicht angepassbar
+* 3 Sensor-Tasten (u.a. nutzbar für Android Buttons)
 * Signalgeber
 	* Akustisch: Lautsprecher
 	* Optisch: LEDs
@@ -38,12 +38,12 @@ Aufbau
 .. image:: ../pics/OBP_Plotter_Exploded_t.png
    :scale: 45%
 
-Abb.: OBP-Plotter Basisgerät Innenansicht
+Abb.: OBP-Plotter V4: Basisgerät Innenansicht
 
 .. image:: ../pics/OBP_Plotter_Inside_Named_t.png
    :scale: 45%
 
-Abb.: OBP-Plotter Basisgerät Hauptplatine, CM5-Modul Unterseite
+Abb.: OBP-Plotter V4 Basisgerät: Hauptplatine, CM5-Modul Unterseite
 
 Spezifikation
 -------------
@@ -77,7 +77,7 @@ Spezifikation
 +----------------------+-----------------------------+
 | Kommunikation        | WiFi, 802.11 bgnac, 50 m    |
 +----------------------+-----------------------------+
-| WiFi Frequenzen      | 2.4 GHz, 5.0 GHz            |
+| WiFi-Frequenzen      | 2.4 GHz, 5.0 GHz            |
 +----------------------+-----------------------------+
 | Ethernet-Protokolle  | HTTP, SSH, VNC, SMB, UDP    |
 +----------------------+-----------------------------+
@@ -111,7 +111,7 @@ Anschlussbelegung
 .. image:: ../pics/OBP_Plotter_Back_View_t.png
    :scale: 50%
    
-Abb.: OBP-Plotter Basisgerät Rückseite
+Abb.: OBP-Plotter V4 Basisgerät: Rückseite
    
 Schaltplan
 ----------
@@ -134,7 +134,7 @@ Nutzbare Telegramme
 Vorinstallierte Apps
 --------------------
 
-Der OBP-Plotter ist so vorkonfiguriert, dass die Navigationslösung AVnav, das AVnav O-Charts Plugin, der AIS Catcher sowie das NMEA Dashboard aufeinander abgestimmt sind und funktionieren. Die Online- und Offline-Karten sind in AVnav bereits integriert. Der VNC- und SSH-Server sind standardmäßig aktiviert. 
+Der OBP-Plotter V4 ist so vorkonfiguriert, dass die Navigationslösung AVnav, das AVnav O-Charts Plugin, der AIS Catcher sowie das NMEA Dashboard aufeinander abgestimmt sind und funktionieren. Die Online- und Offline-Karten sind in AVnav bereits integriert. Der VNC- und SSH-Server sind standardmäßig aktiviert. 
 
 **System**
 	* Aptoide (Alternativer App Store)
