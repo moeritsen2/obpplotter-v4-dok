@@ -1,7 +1,7 @@
 Übersicht
 =========
 
-Den OBP-Plotter V4 besteht aus verschiedenen Komponenten die auf einer gemeinsamen Hauptplatine untergebracht sind.
+Den OBP-Plotter V4 besteht aus verschiedenen Komponenten, die auf einer gemeinsamen Hauptplatine untergebracht sind.
 
 .. image:: /pics/Plotter_Block_Schematic.png
              :scale: 60%
@@ -13,7 +13,7 @@ Abb.: Blockschaltbild Hauptplatine
 	* Helligkeit 1000 nits
 	* Helligkeit automatisch über Umgebungslichtsensor anpassbar
 	* Kapazitives Multi-Touch mit 5 Fingern
-	* Touch ist regensicher und mit Handschuhen bedienbar
+	* Der Touch ist regensicher und mit Handschuhen bedienbar
 	* Kratzfestes, entspiegeltes, sonnenlichtfestes Deckglas 3 mm
 
 .. image:: /pics/OBP_Plotter_PCB_Side_View_t.png
@@ -27,22 +27,22 @@ Abb.: Blockschaltbild Hauptplatine
 	* 1x HDMI (Second Port)
 	
 **Stromversorgung**
-	* Für Comute Modul und Peripherie
+	* Für Compute Modul und Peripherie
 	* Eingangsspannung 10...30V DC, 5A
 	* Eingangssicherung 5A
 	* Kurzschlusssicher
 	* Verpolungssicher
 	* Eingangsfilter und Überspannungsschutz
 
-**Comput Modul Steckplatz**
+**Compute Modul Steckplatz**
 	* Geeignet für CM4, CM5 von Raspberry Pi (getestet)
-	* Geeignet für CM4, CM5 von Banana Pi (ungetestet)
+	* Geeignet für CM4, CM5 von Banana Pi (bislang nicht getestet)
 	
 .. image:: /pics/RPI-CM4_t.png
              :scale: 10%
 
 **Compute Modul CM5**
-	* Quade-Core CPU Broadcom BCM2712
+	* Quad-Core CPU Broadcom BCM2712
 	* 4x 64bit Arm Cortex-A76, 2.4 GHz
 	* 32 GB eMMC Flash-Speicher (Backup Betriebssystem)
 	* WiFi 2.4 GHz, 5 GHz, 802.11 b/g/n/ac
@@ -77,11 +77,11 @@ Abb.: Blockschaltbild Hauptplatine
 **HDMI-Controller**
 	* Ansteuerung für TFT-Display
 	* Enthält einen Upscaler für 1920 x 1080 pix
-	* Auflösung Umschaltbar über Compute Modul
+	* Auflösung umschaltbar über Compute Modul
 	
 **PIC 1**
 	* Enthält Funktionslogik für Touch-Sensorplatine und das Power Management
-	* Flashbar und Updatebar über Dateisystem
+	* Flashbar und updatebar über Dateisystem
 	
 **PIC 2**
 	* Enthält Funktionslogik für HDMI-Chip
