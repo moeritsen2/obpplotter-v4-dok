@@ -44,7 +44,7 @@ Das Herzstück einer modernen Navigation an Bord ist ein Plotter. Um dieses Herz
 
 Mit dem OBP-Plotter V4 ist eine offene Navigationsplattform entstanden, die eine flexible und anpassbare Lösung für Wassersportler bietet. Anders als kommerzielle Systeme können Anwender des OBP-Plotter-Systems selbst entscheiden, welches Betriebssystem und welche Navi-App sie benutzen. Ausgeliefert wird der OBP-Plotter V4 startklar auf Basis von Android15. 
 
-Ob neues Android-Versionen, andere Betriebssysteme wie Raspbian, ob Open Source-Navigations-Apps wie AvNav oder kommerzielle Software wie Orca: Der Anwender entscheidet selbst, was auf seinem Gerät läuft.
+Ob neue Android-Versionen, andere Betriebssysteme wie Raspbian, ob Open Source-Navigations-Apps wie AvNav oder kommerzielle Software wie Orca: Der Anwender entscheidet selbst, was auf seinem Gerät läuft.
 
 Die Hardware ist ebenso flexibel: Sie können den Plotter wie ein Tablet mobil benutzen, denn er kann mit einem AkkuPack ausgerüstet werden. Ebenso kann er fest eingebaut werden. Immer ist er regensicher, das Display ist sonnenlichttauglich und bei Regen und mit Handschuhen bedienbar.
 
