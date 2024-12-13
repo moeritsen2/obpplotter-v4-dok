@@ -5,19 +5,19 @@ Software
 --------
 
 **Android 15** (Standard)
-	Als Standard-Betriebssystem wird Android 15 AOSP verwendet. AOSP basiert auf der freien Android Open Source Platform und nutzt die aktuellen Entwicklungen, die in Google Android verwendet werden. Android 15 AOSP enthält im Original keine Google-Services. Für das Plotter-Image wurden einige Google-Services eingefügt, wie PlayStore, Maps, GMail und Files. Zur Nutzung der Google Serices muss man sich mit einem Google-Account anmelden. Standardmäßig sind alle Sicherungsaktivitäten deaktiviert, die Daten zu Google auslagern.
+	Als Standard-Betriebssystem wird Android 15 AOSP verwendet. AOSP basiert auf der freien Android Open Source Platform und nutzt die aktuellen Entwicklungen, die in Google Android verwendet werden. Android 15 AOSP enthält im Original keine Google-Services. Für das Plotter-Image wurden einige Google-Services eingefügt, zum Beispiel der PlayStore, Maps, GMail und Files. Zur Nutzung der Google Serices muss man sich mit einem Google-Account anmelden. Standardmäßig sind alle Sicherungsaktivitäten deaktiviert, die Daten zu Google auslagern.
 
 **Android 14** (getestet)
 	Android 14 AOSP kann als alternatives Betriebssystem genutzt werden. Es ist in gleicher Weise konfiguriert wie Android 15.
 
 **Raspbian mit AVnav** (in Vorbereitung)
-	Das AVnav Rasbian Image ist aktuell in Vorbereitung. Es stellt Raspian als Linux-Betriebssystem in der Version xxx bereit. AVnav und SignalK und einige andere wichtige Komponenten sind vorinstalliert. Das System ist headless und benutzt keine Tastatur oder Maus. Die Bedienung erfolgt ausschließlich über die Weboberfläche per Touch.
+	Das AVnav Rasbian Image ist aktuell in Vorbereitung. Es stellt Raspian als Linux-Betriebssystem in der Version xxx bereit. AVnav und SignalK und einige andere wichtige Komponenten sind vorinstalliert. Die Bedienung erfolgt ausschließlich über die Weboberfläche von AvNav per Touch.
 
 **Raspbian mit Open Plotter** (in Vorbereitung)
 	Das Open Plotter Image ist aktuell in Vorbereitung. Open Plotter benutzt einen gewöhnlichen Linux-Desktop als Bedienoberfläche. Die Bedienung erfolgt haupsächlich über Tastatur und Maus. Einige Programme sind auch über ein Webinterface bedienbar wie z.B. SignalK. Open Plotter unterstützt AVnav und OpenCPN als Plugin.
 
 **O-Charts Seekarten**
-	O-Charts Seekarten sind kommerzielle Seekarten, die in AVnav oder OpenCPN verwendet werden können. Die oeSENC Vektorkarten sind recht preisgünstig und decken die wichtigsten Seegebiete für Wassersportler ab. Sie können online über den `Store von O-Charts`_ bezogen werden. Die Seekarten werden über einen Software-Token geschützt, der Ihnen nach dem Kauf per Mail übergeben wird. Die Karte kann auf einem Gerät benutzt werden. Nach Ablauf der Gültigkeit ist die Seekarte weiterhin nutzbar, jedoch nicht mehr aktualisierbar. Der Token kann auch auf einen USB-Dongle übertragen werden. So lassen sich die Seekarten auf mehreren Geräten nutzen, wenn der USB-Dongle im jeweiligen Gerät benutzt wird.
+	O-Charts Seekarten sind kommerzielle Seekarten, die in AVnav oder OpenCPN verwendet werden können. Die oeSENC Vektorkarten sind recht preisgünstig und decken die wichtigsten Seegebiete für Wassersportler ab. Sie können online über den `Store von O-Charts`_ bezogen werden. Die Seekarten werden über einen Software-Token geschützt, der Ihnen nach dem Kauf per Mail übergeben wird. Die Karte kann auf einem Gerät benutzt werden. Nach Ablauf der Gültigkeit ist die Seekarte weiterhin nutzbar, jedoch nicht mehr aktualisierbar. Der Token kann auch auf einen USB-Dongle übertragen werden. So lassen sich die Seekarten auf mehreren Geräten nutzen, wenn der USB-Dongle im jeweiligen Gerät benutzt wird. Der USB-Dongle kann in der Android-Version aktuell noch nicht genutzt werden.
 	
 .. _Store von O-Charts: https://o-charts.org/shop/de/8-oesenc
 
@@ -37,7 +37,7 @@ Hardware
 	Auf dem Mainboard sind alle funktionswichtigen Hardwarekomponenten vereinigt. Mit nur wenigen Kabelverbindungen und einem zusätzlichen Raspberry Pi CM5 Modul kann ein lauffähiges System bereit gestellt werden. Das Mainboard ist an das Gehäuse angepasst und wird an vier Domen im Gehäuse mit Schrauben befestigt. Das Mainboard lässt sich auch in anderen Gehäusen verwenden. Das Raspberry Pi CM5 Modul ist nicht Bestandteil des Mainboards.
 	
 **HDMI-Controller**
-	Der HDMI-Controller ist ein Zusatzbord, das verwendet wird, wenn keine Mainbord eingesetzt wird und das Plottergehäuse mit integriertem Display als Monitor verwendet werden soll. Der Controller verfügt über einen Anschluss für den Streifenleiter zum Display. Über einne Keyboard-Platine lassen sich die Grundeinstellungen, wie Auflösung, Helligkeit, Kontrast und Farbe des HDMI-Controllers vornehmen, wie man es von einem Monitor gewohnt ist. Der HDMI-Controller dient nur zur Bildübertragung. Die Touchfunktion des Displays und der IR-Fernbedinung werden nicht unterstützt.
+	Der HDMI-Controller ist ein Zusatzboard, das verwendet wird, wenn kein Mainbord eingesetzt wird und das Plottergehäuse mit integriertem Display als Monitor verwendet werden soll. Der Controller verfügt über einen Anschluss für den Streifenleiter zum Display. Über eine Keyboard-Platine lassen sich die Grundeinstellungen wie Auflösung, Helligkeit, Kontrast und Farbe des HDMI-Controllers vornehmen, wie man es von einem Monitor gewohnt ist. Der HDMI-Controller dient nur zur Bildübertragung. Die Touchfunktion des Displays und die IR-Fernbedienung werden nicht unterstützt.
 
 	* HDMI-Controller-Platine für 10" TFT-Display
 	* Auflösung: VGA, SVGA, HD, 2K, 4K
@@ -46,14 +46,14 @@ Hardware
 	* Stromversorgung: 12V 1.5A, Hohlklinkenstecker
 
 **HDMI-Connector-Board**
-	Das HDMI-Connector-Board wird anstelle des Compute Moduls im Mainboard eingesteckt. Dadurch kann die Plotter-Hardware wie in normaler Monitor benutzt werden. Zusätzlich können über USB unabhängig vom verwendeten Betriebssystem die Touchfunktion des 10" TFT-Displays und die Funktionen der IR-Fernbedienung genutzt werden. Der so entstandene Monitor lässt sich unter Linux, Mac OS und Windows nutzen.
+	Das HDMI-Connector-Board wird anstelle des Compute Moduls im Mainboard eingesteckt. Dadurch kann die Plotter-Hardware wie ein normaler Monitor benutzt werden. Unabhängig vom verwendeten Betriebssystem können die Touchfunktion des 10" TFT-Displays und die Funktionen der IR-Fernbedienung über die USB-Schnittstelle genutzt werden. So wird aus dem OBP-Plotter V4 ein vollwertiger Touch-Monitor, der sich unter Linux, Mac OS oder Windows nutzen lässt.
 	
 
 **Compute Modul CM5** (Standard)
 	.. image:: /pics/RPI-CM4_t.png
              :scale: 10%
 			 
-	Das Raspberry Pi Compute Modul CM5 ist die zentrale Recheneinheit des OBP-Plotters. Es ist das derzeit leistungsfähigste Modul der Raspberry Fondation. Als Standard-Modul wird eine Modul mit folgenden Komponeneten eingesetzt:
+	Das Raspberry Pi Compute Modul CM5 ist die zentrale Recheneinheit des OBP-Plotters. Es ist das derzeit leistungsfähigste Modul der Raspberry Fondation. Als Standard-Modul wird ein Modul mit folgenden Komponeneten eingesetzt:
 	
 	* CPU: BCM2712, Quad Core, 64 Bit
 	* CPU-Speed: 2.5 GHz, Auto-Speedstepping
@@ -117,7 +117,7 @@ Hardware
 	* 1x Befestigungsbügel
 	* 2x Haltewinkel für Plotter
 	* 2x Knäufe mit Unterlegscheiben und Federn
-	* 4x Selbstsichernde Mutter mit Unterlkegscheibe und Dichtung
+	* 4x Selbstsichernde Mutter mit Unterlegscheibe und Dichtung
 	* 3x Befestigungsschrauben für Bügel
 	* 1x Bohrschablone
 
